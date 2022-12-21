@@ -1,0 +1,746 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+ text-decoration: none;
+
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+h2{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    color: #3d2514;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    color: #3d2514;
+    letter-spacing: 1px;
+    
+}
+
+h4{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 26px ;
+    font-weight: 400;
+    color: #3d2514;
+    letter-spacing: 1px;
+    
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #3d2514;
+}
+
+.order-button{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 4px;
+    font-weight: 400;
+    color: #3d2514;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.valign-center{
+    align-items: center;
+}
+
+
+
+
+
+
+/* menu part design */
+
+#main-menu{
+    position: absolute;
+    padding-top: 30px;
+    width: 100%;
+    z-index: 99;
+}
+
+.menu-left ul li{
+    display: inline-block;
+    
+}
+
+.menu{
+    width: 70%;
+    text-align: right;
+    padding: 20px 0;
+}
+
+.menu-logo{
+    width: 30%;
+    padding: 20px 0;
+    
+}
+
+
+.menu-contact{
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: right;
+
+}
+
+.menu-contact span{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #3d2514;
+    margin-left: 20px;
+}
+
+.menu-left ul li a{
+    margin-left: 55px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #3d2514;
+    
+}
+
+.menu-left ul li a:hover{
+    color: white;
+   
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+/* banner part design */
+
+#banner {
+    position: relative;
+    z-index: -1;
+    text-align: center;
+}
+
+
+#banner .container{
+   
+}
+
+.banner-items{
+    height: 825px;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.banner-content{
+    width: 50%;
+    text-align: left;
+    transform: translatey(25%);
+}
+
+.banner-content h4{
+    border: 3px dashed black;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.banner-content h1{
+    font-size: 110px;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #3d2514;
+    text-shadow: 5px 5px 5px rgb(250, 255, 162);
+}
+
+
+.banner-content h2{
+    font-size: 50px;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #3d2514;
+    margin-top: -20px;
+    text-shadow: 5px 5px 5px rgb(250, 255, 162);
+}
+
+
+.banner-img{
+    width: 50%;
+    text-align: left;
+    position: relative;
+    
+}
+
+.banner-img img{
+    margin-top: 200px;
+    
+    
+}
+
+.banner-img .overlay{
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    background-color: red;
+    bottom: 20px;
+    left: 70px;
+    text-align: center;
+    box-shadow: 0 0 20px rgb(255, 177, 99);
+}
+
+
+.overlay p{
+    font-size: 70px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    padding-top: 5px;
+}
+
+.overlay span{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+
+.overlay h4{
+    font-size: 35px;
+    color: white;
+    letter-spacing: 8px;
+    margin-top: -10px;
+}
+
+.suboverlay{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px dashed  white;
+    position: absolute;
+    text-align: center;
+    
+    top: 10px;
+    left: 10px;
+    
+}
+
+
+
+
+
+
+
+
+/* popular part design */
+
+
+#popular{
+    margin-top: 75px;
+}
+
+.popular-burger{
+    width: 50%;
+    padding: 0 25px;
+}
+
+.popular-burger-img img{
+    width: 100%;
+    display: block;
+   
+}
+
+.popular-burger-img{
+    position: relative;
+}
+
+
+.popular-burger-img .popular-burger-content{
+    position: absolute;
+    top: 30px;
+    left: 25px;
+}
+
+.popular-burger-content h3 , .popular-burger-content h4{
+    color: white;
+}
+
+
+
+
+.popular-burger-img button{
+    position: absolute;
+    text-decoration: none;
+    border: none;
+    padding: 10px 15px;
+    background-color: rgb(255, 0, 0);
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 600;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    color: rgb(255, 255, 255);
+    opacity: 0;
+    transition: .5s;
+    border-radius: 5px 5px;
+}
+
+.popular-burger-img:hover button{
+    opacity: 1;
+    bottom: 70px;
+}
+
+
+
+.more-fun-part {
+    padding-bottom: 18px;
+    position: relative;
+}
+
+
+.more-fun-part button{
+    position: absolute;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    padding: 10px 20px;
+    background-color: red;
+    border: none;
+    border-radius: 5%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    right: 0%;
+    top: 50%;
+}
+
+.more-fun-part button:hover{
+    color: red;
+    background-color: white;
+    border: 2px solid red;
+}
+
+
+
+
+.fresh-chill{
+    padding-top: 18px;
+}
+
+.more-fun-part img{
+    width: 100% ;
+    display: block;
+}
+
+
+.more-fun{
+    position: relative;
+}
+
+.more-fun .more-fun-content{
+    position: absolute;
+    top: 30px;
+    left: 25px;
+}
+
+.more-fun-content h3 , .more-fun-content h4{
+    color: white;
+    
+}
+
+.more-fun-content h3{
+    margin-top: -10px;
+}
+
+.more-fun-content h4{
+    margin-bottom: 5px;
+}
+
+.fresh-chill{
+    position: relative;
+}
+
+.fresh-chill .fresh-chill-content{
+    position: absolute;
+    top: 50px;
+    left: 25px;
+}
+
+.fresh-chill-content h3, .fresh-chill-content h4{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/* enjoy part design */
+
+
+
+.enjoy-header{
+    text-align: center;
+    padding-top: 65px;
+}
+
+.enjoy-header h4{
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #ffc045;
+    display: inline-block;
+}
+
+.enjoy-header h3{
+    font-size: 80px;
+}
+
+.enjoy-header p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.enjoy-items{
+    text-align: center;
+    width: 33%;
+    padding: 0 25px;
+}
+
+.enjoy-content button{
+    margin-top: 25px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.enjoy-content button:hover {
+    background-color: black;
+
+}
+
+
+
+
+
+
+
+/* event part design */
+
+
+#spacial-burger{
+    margin: 50px 0 0 0;
+    position: relative;
+}
+
+.spacial-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .8)
+
+}
+
+
+.spacial-burger-banner{
+    height: 500px;
+    background-position: center !important;
+    background-size: cover !important;
+    
+}
+
+.spacial-content{
+    width: 50%;
+   
+    text-align: center;
+    
+}
+
+.spacial-content div{
+    padding: 5px 20px 35px 20px;
+    background-color: #000000ba;
+    margin: 100px 0;
+    border-radius: 25%  0; 
+    transition: .5s;
+}
+
+.spacial-content h2{
+    color: #000000;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 1px;
+    font-weight: 400;
+    transition: .5s;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+   transition: .5s;
+   
+}
+
+#spacial-burger:hover .spacial-content div{
+    padding-top: 30px;
+}
+
+#spacial-burger:hover .spacial-content h2{
+    transform: scale(1.2);
+    color: rgb(85, 255, 85);
+    font-size: 35px;
+    
+}
+
+.spacial-content p{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.spacial-content button{
+    margin-top: 40px;
+    padding: 10px 35px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.spacial-content button:hover{
+    background-color: rgb(255, 8, 8);
+    color: white;
+}
+
+.spacial-img{
+    width: 50%;
+}
+
+.spacial-img img{
+    height: 500px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+/* event part design */
+
+
+#event{
+    padding: 60px 0;
+}
+
+.upcoming-event {
+    margin: auto;
+    width: 1150px;
+    border-radius: 5px;
+    border: 2px dashed rgb(214, 212, 212);
+   box-shadow: 5px 5px 0 5px rgb(84, 56, 56);
+}
+
+.event-img {
+    width: 50%;
+    padding: 20px 0;
+}
+
+.event-content{
+    width: 50%;
+    padding: 25px 30px;
+}
+
+.event-content p{
+    line-height: 30px;
+}
+
+.event-img img{
+    width: 550px;
+    display: block;
+}
+
+
+
+
+
+
+/* table part design */
+
+
+#table{
+    margin-bottom: 40px;
+}
+
+
+.table-header{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.table-img{
+    width: 40%;
+}
+
+.table-form{
+    width: 60%;
+}
+
+.table-form input{
+    height: 40px;
+    width: 325px;
+    margin: 15px 10px;
+    font-size: 18px;
+    padding-inline-start: 5px;
+}
+
+.table-form button{
+    padding: 8px 78px;
+    background-color: #ff2600;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.table-form button:hover{
+    background-color: #000000;
+}
+
+
+
+
+
+
+
+/* Statistics part design */
+
+
+
+
+.Statistics-banner{
+    height: 500px;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.Statistics-header{
+    text-align: center;
+    padding: 40px 0;
+}
+
+.Statistics-header h2{
+    color: #ffffff;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+}
+
+
+.Statistics-header p{
+    color: #ffffff;
+}
+
+.Statistics-items .store{
+    
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid white;
+    color: #ffffff;
+    margin: 0 70px;
+}
+
+.Statistics-items .store h3{
+    color: #ffffff;
+    font-size: 80px;
+    padding-top: 30px;
+}
+
+.Statistics-items .store h4{
+    color: #ffffff;
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+
+.Statistics-items .store:hover , .Statistics-items2 .store:hover {
+    background-color: red;
+    
+    border-color: red;
+}
+
+.Statistics-items2 .store{
+    
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid white;
+    color: #ffffff;
+    margin-left: 225px;
+    margin-top: 20px;
+    
+}
+
+.Statistics-items2 .store h3{
+    color: #ffffff;
+    font-size: 80px;
+    padding-top: 30px;
+}
+
+.Statistics-items2 .store h4{
+    color: #ffffff;
+    letter-spacing: 5px;
+    font-size: 50px;
+}
